@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 240 10% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -17,8 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 213 94% 68%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -26,15 +27,45 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 142.1 76.2% 36.3%;
+    --accent-foreground: 0 0% 100%;
+
+    --success: 142.1 76.2% 36.3%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 47.9 95.8% 53.1%;
+    --warning-foreground: 26 83.3% 14.1%;
+    
+    --danger: 0 84.2% 60.2%;
+    --danger-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 217.2 91.2% 59.8%;
+
+    /* Education-specific colors */
+    --student: 217.2 91.2% 59.8%;
+    --student-foreground: 0 0% 100%;
+    --teacher: 262.1 83.3% 57.8%;
+    --teacher-foreground: 0 0% 100%;
+    
+    /* Status colors */
+    --pending: 47.9 95.8% 53.1%;
+    --graded: 142.1 76.2% 36.3%;
+    --late: 0 84.2% 60.2%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217.2 91.2% 59.8%), hsl(213 94% 68%));
+    --gradient-student: linear-gradient(135deg, hsl(217.2 91.2% 59.8%), hsl(213 94% 68%));
+    --gradient-teacher: linear-gradient(135deg, hsl(262.1 83.3% 57.8%), hsl(270 91% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(217.2 91.2% 59.8%) 0%, hsl(262.1 83.3% 57.8%) 100%);
+    
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(217.2 91.2% 59.8% / 0.3);
+    --shadow-glow: 0 0 40px hsl(213 94% 68% / 0.4);
 
     --radius: 0.5rem;
 
